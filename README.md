@@ -24,4 +24,10 @@ This source code provides the implementation of [HI-GAN](https://github.com/Zero
 
 # Code User Guide
 
-// TODO:
+Install Gstreamer 
+
+    https://gstreamer.freedesktop.org/documentation/installing/index.html?gi-language=c
+
+To run theh pipeline
+
+    gcc gst1.c -o gst1 `pkg-config --cflags --libs gstreamer-1.0`
