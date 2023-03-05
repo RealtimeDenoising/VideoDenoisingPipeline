@@ -6,6 +6,9 @@ This video denoising pipeline uses state-of-the-art image and video denoising ne
 
 This source code provides the implementation of [HI-GAN](https://github.com/ZeroZero19/HI-GAN) and [FastDVDNet](https://github.com/m-tassano/fastdvdnet) in a pipeline with a custom [Denoising Analyzer](https://github.com/RealtimeDenoising/DenoisingAnalyzer) and [Noise Detector](https://github.com/RealtimeDenoising/NoiseDetector) algorithms.
 
+The GStreamer pipeline is summarized in the diagram below.
+![GStreamer diagram](https://user-images.githubusercontent.com/35348652/222982713-651d7f21-81e6-465c-b7c3-d226553aab8f.png)
+
 # Datasets
 
 // TODO:
